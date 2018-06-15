@@ -1,0 +1,114 @@
+/*
+ * Droid Arabic Kufi (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format('truetype');
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body{
+  direction: rtl;
+  background-color: #f7f7f7;
+
+}
+
+#appbox {
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #eaeaea;
+}
+.titleapp{
+  float: left;
+  direction: ltr;
+  font-weight: 500;
+  margin-left: 5px;
+
+}
+.appicon {
+    width: 90px;
+    float: left;
+    box-shadow: 0px 1px 1px 1px #c1c1c1;
+    border-radius: 20px;
+}
+.appv{
+    font-size: 13px;
+    color: #9a9a9a;
+    font-family: 'Droid Arabic Kufi', serif;
+
+}
+.install {
+    float: right;
+    margin-top: 11px;
+    margin-right: 6px;
+    font-size: 19px;
+    background: #F44336;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Droid Arabic Kufi', serif;
+
+}
+.social a{
+    font-size: 34px;
+    color: #F44336;
+    padding: 5px;
+
+}
+.titlepage{
+      color: #2870ce;
+}
+#bgicon {
+    color: #2870ce;
+    font-size: 51px;
+}
+.tos{
+  font-family: 'Droid Arabic Kufi', serif;
+
+}
+.copy{
+  font-family: 'Droid Arabic Kufi', serif;
+
+}
+
+
+.fixbutton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 11px;
+    border-top: 1px solid #bdbdbd;
+    direction: rtl;
+}
+
+.fixbutton a {
+    color: #565656;
+    padding: 0px 8px;
+    border-radius: 12px;
+}
+
+.fixbutton a:hover{
+     text-decoration: none;
+}
+
